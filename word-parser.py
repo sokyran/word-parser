@@ -18,7 +18,6 @@ def collect_data(folder, write_file):
 				doc.Close()
 
 def main():
-	#'C:\\Users\\yurii\\Desktop\\Me\\Course 2\\Пархом\\Лабораторні роботи ОС\\admin_redak\\'
 	folder = input("Enter folder location:\n") + "\\"
 	file_name = folder.split('\\')[-2]
 	with open(folder + f"\\{file_name}_collected.txt", 'w+', encoding='utf-8') as f:
